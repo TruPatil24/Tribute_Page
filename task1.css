@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* border:1px solid; */
+    box-sizing: border-box;
+}
+.container{
+    height: 1100px;
+    width: 650px;
+    overflow: scroll;
+    margin: 50px 25% ;
+    border: 1px solid transparent;
+    background-color: khaki;
+    box-shadow: 0px 0px 40px rgb(158, 147, 43);
+
+}
+h1{
+    text-align: center;
+    margin: 20px;
+    text-decoration: transparent;
+    /* color: brown; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(45deg, brown ,red);
+}
+h4{
+    text-align: center;
+    -webkit-background-clip: text;
+    text-decoration: transparent;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(45deg ,blue,green);
+}
+/* h6{
+    margin-top: 0px auto;
+    margin-left: 50%;
+    padding-bottom: 0px;
+} */
+/* h5{
+    font-size: medium;
+} */
+#div1{
+    height: 250px;
+    width: 250px;
+    border: 1px solid transparent;
+    margin-left: 30px ;
+    display: inline-block;
+    background-image: url(./img/406px-A._P._J._Abdul_Kalam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* vertical-align: middle; */
+    border-radius: 20%;
+    
+}
+#div2{
+    height: 100px;
+    width: 340px;
+    margin-top: 80px;
+    margin-left: 250px;
+    text-align: justify;
+    padding: 5px;
+    vertical-align: middle;
+    /* border: 1px solid; */
+}
+#div4{
+    margin-top:550px;
+    
+}
+#tb{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    display: inline-block;
+    margin: 10px 80px;
+    width: 440px;
+    border: 1px solid ;
+}
+th{
+    height: 80px;
+    border-bottom: 1px solid black;
+    color: purple;
+    text-align: left;
+    padding: 8px;
+}
+tr{
+    height: 30px;
+    padding: 10px;
+    padding: 8px;
+    /* border: 1px solid; */
+    /* width: 50px; */
+}
+td{
+    border-bottom: 1px solid;
+}
+#div3{
+    height: 550px;
+    width: 600px;
+    margin-left: -283px;
+    border: 1px solid transparent;
+    padding: 10px;
+    text-align: justify;
+}
+li{
+    margin-left: 20px;
+}
+table:hover{
+    background-color: whitesmoke;
+}
+
